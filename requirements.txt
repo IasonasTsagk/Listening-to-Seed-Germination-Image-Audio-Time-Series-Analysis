@@ -1,0 +1,11 @@
+# The available OpenCV build, and many released OpenCV wheels, require NumPy 1.x.
+numpy<2
+pandas
+opencv-python
+matplotlib
+scipy
+pytest
+jupyter
+ipympl
+ipywidgets
+Pillow

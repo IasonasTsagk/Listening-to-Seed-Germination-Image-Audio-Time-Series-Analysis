@@ -1,0 +1,2 @@
+corpus_wavs,valid_wavs,invalid_or_failed_wavs,reference_self_score,reference_crop_start_seconds,reference_crop_end_seconds,channel_method,reference_channel_correlation,sample_min_channel_correlation,p50,p90,p95,p99,p99.5,p99.9,p99.95,p99.99
+120311,120311,0,1.0,0.0725,0.3725,separate_channels_max_positive,0.9945947374889882,0.883831165399268,0.1539396173605313,0.2151207323748802,0.23746918886042798,0.30870821687915556,0.3480722386983139,0.4396697460074082,0.4819234630259314,0.5515591943995295

@@ -1,0 +1,51 @@
+timestamp,filename,method,device,runtime_seconds,foreground_area_pixels,foreground_percentage,component_count,mask_count,detection_count,mean_confidence,median_confidence,notes
+2026-07-14 12:01:32,recording__2026_07_14_12_01_32.png,classical_otsu,cpu,0.030290499998955056,1318323.0,63.57653356481482,97.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 13:08:36,recording__2026_07_14_13_08_36.png,classical_otsu,cpu,0.0159896670083981,1317100.0,63.51755401234568,98.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 14:00:03,recording__2026_07_14_14_00_03.png,classical_otsu,cpu,0.016815584007417783,1316313.0,63.47960069444445,92.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 15:06:16,recording__2026_07_14_15_06_16.png,classical_otsu,cpu,0.016157584002939984,1316104.0,63.46952160493827,102.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 16:00:44,recording__2026_07_14_16_00_44.png,classical_otsu,cpu,0.01624704198911786,1314999.0,63.41623263888889,89.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 17:03:56,recording__2026_07_14_17_03_56.png,classical_otsu,cpu,0.016084417002275586,1476140.0,71.18730709876543,501.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 18:11:11,recording__2026_07_14_18_11_11.png,classical_otsu,cpu,0.016032874991651624,1598007.0,77.06438078703704,365.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 19:01:36,recording__2026_07_14_19_01_36.png,classical_otsu,cpu,0.016402374996687286,1594238.0,76.88261959876543,491.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 20:01:57,recording__2026_07_14_20_01_57.png,classical_otsu,cpu,0.016346666001481935,1584410.0,76.4086612654321,450.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 21:00:07,recording__2026_07_14_21_00_07.png,classical_otsu,cpu,0.01610045798588544,1570031.0,75.71522955246913,453.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 22:06:30,recording__2026_07_14_22_06_30.png,classical_otsu,cpu,0.016606292003416456,1540155.0,74.27445023148148,587.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 23:13:45,recording__2026_07_14_23_13_45.png,classical_otsu,cpu,0.01620504200400319,1493503.0,72.02464313271605,643.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 00:04:10,recording__2026_07_15_0_04_10.png,classical_otsu,cpu,0.015942500001983717,1472969.0,71.03438464506173,621.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 01:02:10,recording__2026_07_15_1_02_10.png,classical_otsu,cpu,0.016580458992393687,1455642.0,70.19878472222221,615.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 02:01:40,recording__2026_07_15_2_01_40.png,classical_otsu,cpu,0.01604600000428036,1439627.0,69.42645640432099,619.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 03:02:21,recording__2026_07_15_3_02_21.png,classical_otsu,cpu,0.01627458300208673,1428076.0,68.86940586419753,597.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 04:00:21,recording__2026_07_15_4_00_21.png,classical_otsu,cpu,0.015870416988036595,1410764.0,68.03452932098766,513.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 05:06:45,recording__2026_07_15_5_06_45.png,classical_otsu,cpu,0.016108416006318294,1409275.0,67.96272183641975,516.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 06:13:59,recording__2026_07_15_6_13_59.png,classical_otsu,cpu,0.01611895799578633,1410342.0,68.01417824074075,472.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 07:04:24,recording__2026_07_15_7_04_24.png,classical_otsu,cpu,0.016525375001947396,1413091.0,68.14674961419753,458.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 08:11:39,recording__2026_07_15_8_11_39.png,classical_otsu,cpu,0.015743249998195097,1406430.0,67.82552083333333,587.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 09:18:53,recording__2026_07_15_9_18_53.png,classical_otsu,cpu,0.016024332988308743,1415134.0,68.24527391975309,515.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 10:09:19,recording__2026_07_15_10_09_19.png,classical_otsu,cpu,0.016238500000326894,1417674.0,68.36776620370371,462.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 11:16:33,recording__2026_07_15_11_16_33.png,classical_otsu,cpu,0.01643716701073572,1419022.0,68.43277391975309,454.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-15 12:06:59,recording__2026_07_15_12_06_59.png,classical_otsu,cpu,0.015985791993443854,1424447.0,68.6943962191358,463.0,,,,,dark seed-body baseline; components are not seeds
+2026-07-14 12:01:32,recording__2026_07_14_12_01_32.png,YOLOv8x-Germ,mps,1.7868969580013072,,,,,211.0,0.5269378111543248,0.5240585803985596,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 13:08:36,recording__2026_07_14_13_08_36.png,YOLOv8x-Germ,mps,0.052714541991008446,,,,,215.0,0.5263991001040437,0.5211816430091858,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 14:00:03,recording__2026_07_14_14_00_03.png,YOLOv8x-Germ,mps,0.05434379099460784,,,,,211.0,0.5307318165686459,0.5446855425834656,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 15:06:16,recording__2026_07_14_15_06_16.png,YOLOv8x-Germ,mps,0.052832540997769684,,,,,205.0,0.5283611842771856,0.5201233625411987,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 16:00:44,recording__2026_07_14_16_00_44.png,YOLOv8x-Germ,mps,0.05508870800258592,,,,,209.0,0.5260912034500158,0.5208256244659424,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 17:03:56,recording__2026_07_14_17_03_56.png,YOLOv8x-Germ,mps,0.47344566699757706,,,,,44.0,0.4734550599347461,0.4627223610877991,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 18:11:11,recording__2026_07_14_18_11_11.png,YOLOv8x-Germ,mps,0.055326582994894125,,,,,48.0,0.4917449026058118,0.4638272672891617,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 19:01:36,recording__2026_07_14_19_01_36.png,YOLOv8x-Germ,mps,0.06662287499057129,,,,,57.0,0.5856522959575319,0.5853773355484009,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 20:01:57,recording__2026_07_14_20_01_57.png,YOLOv8x-Germ,mps,0.06963787499989849,,,,,60.0,0.5828990047176679,0.6245397329330444,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 21:00:07,recording__2026_07_14_21_00_07.png,YOLOv8x-Germ,mps,0.07033683400368318,,,,,76.0,0.5654501507156774,0.5876180827617645,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 22:06:30,recording__2026_07_14_22_06_30.png,YOLOv8x-Germ,mps,0.06281308400502894,,,,,81.0,0.562952501906289,0.5890044569969177,detections are not seed counts; class names from checkpoint metadata
+2026-07-14 23:13:45,recording__2026_07_14_23_13_45.png,YOLOv8x-Germ,mps,0.0617821250052657,,,,,77.0,0.5480587873365972,0.5506481528282166,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 00:04:10,recording__2026_07_15_0_04_10.png,YOLOv8x-Germ,mps,0.05947300000116229,,,,,77.0,0.5559096893706879,0.553962230682373,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 01:02:10,recording__2026_07_15_1_02_10.png,YOLOv8x-Germ,mps,0.05922841699793935,,,,,75.0,0.5616242369016011,0.5431013703346252,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 02:01:40,recording__2026_07_15_2_01_40.png,YOLOv8x-Germ,mps,0.05689291699673049,,,,,74.0,0.5820374009577004,0.599804013967514,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 03:02:21,recording__2026_07_15_3_02_21.png,YOLOv8x-Germ,mps,0.053504875002545305,,,,,71.0,0.5879154486555449,0.5753769278526306,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 04:00:21,recording__2026_07_15_4_00_21.png,YOLOv8x-Germ,mps,0.05858262498804834,,,,,66.0,0.5134305096033848,0.44737307727336884,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 05:06:45,recording__2026_07_15_5_06_45.png,YOLOv8x-Germ,mps,0.0537935419997666,,,,,53.0,0.5716354070969347,0.5484541058540344,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 06:13:59,recording__2026_07_15_6_13_59.png,YOLOv8x-Germ,mps,0.05985945800784975,,,,,62.0,0.5306182152801945,0.5250460505485535,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 07:04:24,recording__2026_07_15_7_04_24.png,YOLOv8x-Germ,mps,0.05640833299548831,,,,,37.0,0.5159120156958297,0.5051530003547668,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 08:11:39,recording__2026_07_15_8_11_39.png,YOLOv8x-Germ,mps,0.05919850000645965,,,,,34.0,0.5738374643466052,0.5659623444080353,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 09:18:53,recording__2026_07_15_9_18_53.png,YOLOv8x-Germ,mps,0.0571095420018537,,,,,56.0,0.5247110990541322,0.5185599625110626,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 10:09:19,recording__2026_07_15_10_09_19.png,YOLOv8x-Germ,mps,0.05416474999219645,,,,,59.0,0.5424865913593163,0.562671959400177,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 11:16:33,recording__2026_07_15_11_16_33.png,YOLOv8x-Germ,mps,0.056586582999443635,,,,,71.0,0.5578394171217798,0.556150496006012,detections are not seed counts; class names from checkpoint metadata
+2026-07-15 12:06:59,recording__2026_07_15_12_06_59.png,YOLOv8x-Germ,mps,0.058838625001953915,,,,,77.0,0.5451726901840854,0.5399753451347351,detections are not seed counts; class names from checkpoint metadata

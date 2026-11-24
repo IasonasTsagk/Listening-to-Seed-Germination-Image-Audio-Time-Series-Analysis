@@ -1,0 +1,36 @@
+{
+  "inventory_complete": true,
+  "metadata_qc_complete": true,
+  "representative_analysis_complete": true,
+  "peak_parameters_provisional": true,
+  "july13_16_processing_complete": false,
+  "image_audio_alignment_complete": true,
+  "ready_for_audio_phase2": true,
+  "blockers": [
+    "Signal-analysis stage not yet run in this invocation."
+  ],
+  "warnings": [
+    "Candidate peaks are exploratory acoustic events, not germination events.",
+    "Apparent overlaps may reflect whole-second timestamp quantization.",
+    "No recording is not acoustic silence.",
+    "Pilot images are approximately hourly; this alignment cannot establish second-level biological timing.",
+    "Pilot images are approximately hourly; this alignment cannot establish second-level biological timing."
+  ],
+  "recommended_next_action": "Review inventory QC before running representative waveform analysis.",
+  "overlap_diagnostics_complete": true,
+  "channel_validation_complete": true,
+  "ready_for_full_july13_18_processing": true,
+  "analysis_window": "2026-07-13 through 2026-07-18 (July 18 partial)",
+  "provisional_phase1_parameters": {
+    "prominence": 0.00032567624237803464,
+    "minimum_peak_distance_seconds": 0.1,
+    "envelope_window_seconds": 0.025,
+    "envelope_hop_seconds": 0.01,
+    "smoothing_frames": 3,
+    "channel_strategy": "mean_mono, justified by representative diagnostics only"
+  },
+  "full_july13_18_processing_complete": true,
+  "hourly_summary_complete": true,
+  "daily_summary_complete": true,
+  "candidate_multimodal_windows_complete": true
+}

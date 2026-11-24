@@ -1,0 +1,37 @@
+{
+  "phase": "2.7",
+  "ready_for_phase_3": false,
+  "reason": "SAM passed five-frame qualitative temporal validation but its unchanged full-resolution MPS all-25 run exceeded 90 minutes without finalizing outputs. No manual ground truth exists, so the results do not justify accuracy metrics or automatic biological claims.",
+  "methods": {
+    "otsu": "Useful, fast dark seed-body baseline. It merges touching seeds and connected components are not seed counts.",
+    "germination_candidate_mask": "Exploratory yellow-candidate signal only; it is not a radicle mask.",
+    "yolov8x_germ": "All-25 inference completed (2,306 detections). Numeric labels 1-4 remain biologically unlabeled; detections are not seed counts and temporal counts are unstable.",
+    "seedgerm_vig_unet": "Faithful one-image low-level SavedModel inference works. Official source establishes channel 1 as the retained binary mask. The output requires manual validation before use on this domain.",
+    "sam_2_1": "Five-frame fixed-parameter automatic validation is visually meaningful (110-136 raw masks, 52.1-62.1% union coverage, 5.2-11.8% high-overlap-mask fraction). It frequently separates contacts, but can join seed body and emergent tissue. The all-25 MPS run did not finalize after >90 minutes, so it is not scalable here."
+  },
+  "recommendations": {
+    "seed_body_foreground_segmentation": "Otsu remains the current scalable baseline; U-Net and SAM need manual annotation-based validation before replacement.",
+    "individual_seed_instance_separation": "SAM 2.1 is the most promising tested qualitative proposal source, but SAM masks are not seed counts and need validation.",
+    "touching_seed_separation": "SAM 2.1 qualitatively separates many contacts better than Otsu across the five sampled times; this is not an accuracy claim.",
+    "seed_localization": "YOLO boxes and SAM proposals can assist review; neither is a validated seed count and YOLO's numeric class labels remain biologically unlabeled.",
+    "germination_stage_information": "YOLO numeric classes cannot be used for named stages because the official mapping was not established in the inspected source.",
+    "yellow_green_germination_tissue": "The Phase 2.5 combined yellow candidate is exploratory only and must not be called a radicle mask.",
+    "pale_white_radicle_representation": "SAM often includes pale emerging structures but can merge them into the seed mask; it is not a validated radicle representation.",
+    "later_tracking_suitability": "Not ready: no cross-frame identity validation or manual ground truth exists.",
+    "computational_scalability": "Otsu is scalable. Current full-resolution automatic SAM on MPS is not: the all-25 run exceeded 90 minutes without final output.",
+    "hybrid_pipeline": "Prefer Otsu for the baseline, with SAM only as a manually reviewed instance-separation aid and YOLO boxes as auxiliary localization."
+  },
+  "scientific_cautions": [
+    "connected component != seed",
+    "YOLO detection != seed",
+    "SAM mask != seed",
+    "yellow candidate != radicle",
+    "No IoU, Dice, mAP, or accuracy claims without manual ground truth."
+  ],
+  "later_considerations": {
+    "sam_better_than_otsu_for_instance_segmentation": "Qualitatively yes on the five sampled frames; not quantitatively validated.",
+    "sam_needs_manual_annotations_or_fine_tuning": true,
+    "yolo_seg_fine_tuning_later": "Consider only after manual annotation and a defined evaluation split.",
+    "unet_fine_tuning_later": "Consider only after manual annotation and a defined evaluation split."
+  }
+}

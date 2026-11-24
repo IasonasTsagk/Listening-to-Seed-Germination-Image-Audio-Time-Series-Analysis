@@ -1,0 +1,57 @@
+{
+  "total_review_wavs": 11,
+  "labeled_review_wavs": 11,
+  "unlabeled_review_wavs": 0,
+  "label_counts": {
+    "low_activity": 5,
+    "obvious_speech_or_household": 1,
+    "impact_or_handling": 0,
+    "mechanical_or_continuous": 4,
+    "short_transient_unexplained": 1,
+    "uncertain": 0
+  },
+  "window_label_counts": {
+    "inside_visual_interval": {
+      "low_activity": 2,
+      "obvious_speech_or_household": 0,
+      "impact_or_handling": 0,
+      "mechanical_or_continuous": 2,
+      "short_transient_unexplained": 1,
+      "uncertain": 0
+    },
+    "within_30_seconds": {
+      "low_activity": 2,
+      "obvious_speech_or_household": 0,
+      "impact_or_handling": 0,
+      "mechanical_or_continuous": 2,
+      "short_transient_unexplained": 1,
+      "uncertain": 0
+    },
+    "within_1_minute": {
+      "low_activity": 3,
+      "obvious_speech_or_household": 0,
+      "impact_or_handling": 0,
+      "mechanical_or_continuous": 2,
+      "short_transient_unexplained": 1,
+      "uncertain": 0
+    },
+    "within_5_minutes": {
+      "low_activity": 3,
+      "obvious_speech_or_household": 1,
+      "impact_or_handling": 0,
+      "mechanical_or_continuous": 3,
+      "short_transient_unexplained": 1,
+      "uncertain": 0
+    },
+    "control": {
+      "low_activity": 2,
+      "obvious_speech_or_household": 0,
+      "impact_or_handling": 0,
+      "mechanical_or_continuous": 1,
+      "short_transient_unexplained": 0,
+      "uncertain": 0
+    }
+  },
+  "window_rule": "Cumulative signed-lag windows based on the selected candidate peak; controls are separate. A WAV can appear in multiple windows.",
+  "caution": "Neutral human acoustic descriptions only; no source or biological causation established."
+}

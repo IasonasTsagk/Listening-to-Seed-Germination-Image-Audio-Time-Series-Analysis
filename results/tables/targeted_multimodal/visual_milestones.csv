@@ -1,0 +1,11 @@
+seed_id,event_type,last_negative_timestamp,first_positive_timestamp,interval_seconds,visual_confidence,notes,source
+seed_01,crack_onset,2026-07-14 17:03:56,2026-07-14 17:05:37,101.0,high,,phase_b
+seed_02,crack_onset,2026-07-14 20:38:36,2026-07-14 20:40:57,141.0,,,phase_b
+seed_03,crack_onset,2026-07-14 17:04:57,2026-07-14 17:06:17,80.0,,,phase_b
+seed_04,crack_onset,2026-07-14 17:03:56,2026-07-14 17:04:37,41.0,high,,phase_b
+seed_05,crack_onset,2026-07-14 19:22:37,2026-07-14 19:23:58,81.0,,,phase_b
+seed_01,major_opening,2026-07-14 17:03:56,2026-07-14 17:18:03,847.0,high,,phase_d
+seed_01,radicle_emergence,2026-07-14 17:03:56,2026-07-14 17:31:20,1644.0,high,,phase_d
+seed_05,major_opening,2026-07-14 19:01:36,2026-07-14 20:01:57,3621.0,high,,phase_d
+seed_04,major_opening,2026-07-14 17:03:56,2026-07-14 17:13:41,585.0,high,,phase_d
+seed_04,radicle_emergence,2026-07-14 17:03:56,2026-07-14 17:43:36,2380.0,high,,phase_d

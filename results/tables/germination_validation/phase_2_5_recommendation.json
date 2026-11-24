@@ -1,0 +1,18 @@
+{
+  "phase": "2.5_germination_segmentation_validation",
+  "seed_body_mask_default": "grayscale_otsu_dark_foreground_without_heavy_morphology",
+  "provisional_germination_candidate": "combined_yellow_candidate",
+  "candidate_rule": {
+    "lab_b_min": 145,
+    "hsv_hue_range": [
+      12,
+      48
+    ],
+    "hsv_saturation_min": 35,
+    "boundary_band_restriction": true,
+    "exclude_seed_body": true
+  },
+  "white_yellow_structure_capture_validated": false,
+  "ready_for_phase_3": false,
+  "reason": "Candidate masks are interpretable visual hypotheses only. Review overlays against the RGB images and add annotations or a documented acceptance criterion before using any candidate as a radicle feature input."
+}

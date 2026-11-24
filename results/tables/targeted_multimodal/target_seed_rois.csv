@@ -1,0 +1,6 @@
+seed_id,reference_image_filename,reference_image_timestamp,manual_x_min,manual_y_min,manual_x_max,manual_y_max,padded_x_min,padded_y_min,padded_x_max,padded_y_max,padding_pixels,selection_status,priority,notes
+seed_01,recording__2026_07_14_12_01_32.png,2026-07-14 12:01:32,424,442,561,542,404,422,581,562,20,human_selected,,
+seed_02,recording__2026_07_14_12_01_32.png,2026-07-14 12:01:32,1061,217,1188,318,1041,197,1208,338,20,human_selected,,
+seed_03,recording__2026_07_14_12_01_32.png,2026-07-14 12:01:32,208,858,354,955,188,838,374,975,20,human_selected,,
+seed_04,recording__2026_07_14_12_01_32.png,2026-07-14 12:01:32,1281,462,1418,572,1261,442,1438,592,20,human_selected,,
+seed_05,recording__2026_07_14_12_01_32.png,2026-07-14 12:01:32,881,354,1014,434,861,334,1034,454,20,human_selected,,

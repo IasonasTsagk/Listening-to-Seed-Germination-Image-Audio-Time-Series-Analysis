@@ -1,0 +1,15 @@
+{
+  "reference_relative_path": "796/er_file_2026_07_14_19_23_28.wav",
+  "reference_sha256": "9cbc7093e1e295e56c5acc723082d7d42f0c4c3743179ce2b1f798189a5e1a88",
+  "reference_peak_seconds": 0.2225,
+  "reference_start_seconds": 0.0725,
+  "reference_end_seconds": 0.3725,
+  "template_samples": 14400,
+  "sample_rate_hz": 48000,
+  "channel_method": "separate_channels_max_positive",
+  "primary_method": "Per-channel zero-mean normalized raw-waveform cross-correlation; FFT numerator, exact rolling denominator; positive maximum; no filtering",
+  "score_timestamp": "Aligned reference peak: WAV start + matched template-start lag + reference peak offset within template",
+  "corpus_count": 120311,
+  "corpus_path_hash": "32552174351bf2cce9d8218d9c91e24f351937176364ad214ec36a15f24b8c31",
+  "batch_size": 500
+}

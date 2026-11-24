@@ -1,0 +1,68 @@
+{
+  "evaluated_grid_layouts": [
+    {
+      "grid": "3x2",
+      "tile_size": [
+        640,
+        540
+      ],
+      "split_tile_counts": {
+        "train": 4,
+        "validation": 1,
+        "test": 1
+      },
+      "coverage_by_split": {
+        "test": 0.602015625,
+        "train": 0.7199836516203704,
+        "validation": 0.69865625
+      }
+    },
+    {
+      "grid": "4x2",
+      "tile_size": [
+        480,
+        540
+      ],
+      "split_tile_counts": {
+        "train": 5,
+        "test": 2,
+        "validation": 1
+      },
+      "coverage_by_split": {
+        "test": 0.6267218364197531,
+        "train": 0.7294243827160494,
+        "validation": 0.6735763888888888
+      }
+    }
+  ],
+  "chosen_grid": "3x2",
+  "rationale": "640x540 tiles retain more seed context than 4x2 and give 4/1/1 tiles (67%/17%/17%), close to the target spatial split.",
+  "tile_to_split_mapping": [
+    {
+      "tile_id": "r00_c00",
+      "proposed_split": "train"
+    },
+    {
+      "tile_id": "r00_c01",
+      "proposed_split": "train"
+    },
+    {
+      "tile_id": "r00_c02",
+      "proposed_split": "validation"
+    },
+    {
+      "tile_id": "r01_c00",
+      "proposed_split": "train"
+    },
+    {
+      "tile_id": "r01_c01",
+      "proposed_split": "train"
+    },
+    {
+      "tile_id": "r01_c02",
+      "proposed_split": "test"
+    }
+  ],
+  "limitations": "Within-experiment spatial holdout only: this single scene cannot demonstrate generalization to a new seed batch, experiment, plate, camera, lighting, or setup.",
+  "future_boundary_policy": "Annotate full frames first. After human review, assign an instance to one tile by centroid or majority mask area; configure a boundary buffer and exclude near-boundary instances from validation/test where needed. Never duplicate one biological object across train and test."
+}
